@@ -1,0 +1,39 @@
+
+.login {
+  height: 60vh;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputBar {
+  box-sizing: border-box;
+  padding: 10px 10px;
+
+  border: none;
+  border-bottom: 1px solid #515151;
+  margin: 10px 10px;
+  width: 300px;
+}
+
+.inputBar:focus {
+  outline: none;
+}
+
+.loginButton {
+    margin:40px 10px;
+    color:white;
+  background-color: #24b4fb;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 10px;
+  width: 300px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.loginButton:hover {
+
+  background-color: #0071e2;
+}
+

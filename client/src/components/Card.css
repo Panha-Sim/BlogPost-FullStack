@@ -1,0 +1,57 @@
+:root {
+  --startingScale: 0.4;
+}
+
+.card {
+  width: 254px;
+  height: 190px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+  transform: scale(var(--startingScale));
+  
+}
+
+.card2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 254px;
+  height: 190px;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.card2:hover {
+  transform: scale(0.97);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+.Customeh1 {
+  background-color: inherit;
+  color: white;
+}
+
+.fade-in-bounce {
+  animation: 0.6s fade-in-bounce 0s forwards ease-in-out;
+}
+@keyframes fade-in-bounce {
+  0% {
+    opacity: 4;
+    transform: scale(var(--startingScale));
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

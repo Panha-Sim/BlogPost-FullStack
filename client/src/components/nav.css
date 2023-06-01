@@ -1,0 +1,129 @@
+.Navbar {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 10vh;
+}
+.Navbar h1 {
+  margin-left: 3vw;
+}
+.big {
+  transition: 0.2s ease-in-out;
+}
+.big:hover {
+  transform: translateX(20%);
+}
+.navLink {
+  font-size: 3vh;
+  font-weight: 400;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navLink a {
+  text-decoration: none;
+  font-size: 19px;
+  margin-right: 20px;
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.navLink > a:hover {
+  text-decoration: underline;
+}
+
+.loginButt {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  color: #24b4fb;
+  padding: 9px 11px;
+  border-radius: 7px;
+}
+.loginButt:hover {
+  color: #0071e2;
+}
+.registerbutt {
+  flex-shrink: 0;
+  background-color: #24b4fb;
+  color: white;
+  padding: 9px 11px;
+  border-radius: 7px;
+}
+.registerbutt:hover {
+  background-color: #0071e2;
+}
+.Navbar > a {
+  text-decoration: none;
+}
+
+/* searchBar ***********************************************/
+.input {
+  --input-focus: #2d8cf0;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --main-color: #323232;
+  width: 10vw;
+  height: 3vh;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 1vh 2vw;
+  outline: none;
+  margin-right: 3vw;
+}
+
+.input::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+
+.input:focus {
+  border: 2px solid var(--input-focus);
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown button {
+
+  display: none;
+  position: absolute;
+  
+
+  color: white;
+  background-color: #222;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  align-items: center;
+  border: none;
+
+  
+  bottom: 10;
+  z-index: 1;
+  cursor: pointer;
+
+}
+.dropdown button:hover {
+  background-color: #333;
+}
+.dropdown:hover button {
+  display: block;
+}

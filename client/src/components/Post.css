@@ -1,0 +1,45 @@
+time{
+    opacity: .7;
+    font-size: 13px;
+}
+.postContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin:3vh 3vw;
+    gap:6vh
+}
+.post{
+    
+    height: 34vh; 
+    /* 23vh */
+    width: 50vh;
+    
+}
+.post > p{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+
+    font-size: 2vh;
+    opacity: .7;
+}
+.post > h5{    
+    line-height: 4vh;
+}
+.post > h1{
+    font-size:3.5vh;  
+}
+.post > a{
+    text-decoration: none;
+}
+
+.post > a > h1{
+    transition: .2s ease-in-out;
+}
+.post > a > h1:hover{
+ color:rgb(2, 129, 248);
+ transition: .2s ease-in-out;
+}

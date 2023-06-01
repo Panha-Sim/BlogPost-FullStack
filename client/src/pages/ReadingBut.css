@@ -1,0 +1,61 @@
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  animation-duration: 3s;
+}
+
+/* .startReading {
+  background-color: black;
+  padding: 3vh 7vh;
+  font-size: 7vh;
+  font-weight: 800;
+  color: white;
+  border-radius: 60px;
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+
+  animation: 0.6s ButtStartup 0.3s forwards ease-in-out;
+  opacity: 0;
+} 
+.startReading:hover {
+  box-shadow: 1vw 2vh 0px rgb(0 0 0 / 0.2);
+}  */
+
+/* new button */
+
+
+.startReading{
+  background-color: white;
+  color: black;
+  border-radius: 10em;
+  font-size: 7vh;
+  font-weight: 600;
+  padding: 3vh 7vh;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+.startReading:hover{
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+.startReading:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+@keyframes ButtStartup {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

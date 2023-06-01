@@ -1,0 +1,20 @@
+.articleContainer{
+    margin: 10vh 3vw;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.articleContainer > h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.articleContainer > p {
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.articleContainer > time{
+    margin-bottom: 35px;
+    opacity: 1;
+}

@@ -1,0 +1,22 @@
+.CreateForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 75vw;
+  margin-left: 7vh;
+  gap: 6px;
+}
+
+form > textarea {
+  line-height: 20px;
+}
+
+.SubmitButtom {
+  width: 10vw;
+}
+
+.genreCheckbox{
+    margin-left:15px;
+}
+.labelCheckbox{
+    margin-left:3px
+}

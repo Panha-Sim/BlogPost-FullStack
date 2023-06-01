@@ -1,0 +1,10 @@
+.genreContainer{
+    margin:3vh 3vw;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;   
+    gap: 3vw;
+}
+.noUnderline{
+    text-decoration: none;
+}
