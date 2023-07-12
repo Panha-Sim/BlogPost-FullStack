@@ -1,5 +1,14 @@
-# BlogPost📝-FullStack
+# BlogPost📝-FullStack:
 A Full Stack BlogPost application (MVP). Built using Mern Tech Stack. you can register and login, with the help of JWT and Bcrypt, logining and register is secure🔒 the password is hash then store in database. The user is authenticated with cookies🍪. Onces you are login you can also published your own blog📰.
+# Previews: 
+<img src="Screenshot/Screenshot2.png" alt="drawing" width="500"/>
+<img src="Screenshot/Screenshot1.png" alt="drawing" width="500"/>
+<img src="Screenshot/Screenshot3.png" alt="drawing" width="500"/>
+<img src="Screenshot/Screenshot4.png" alt="drawing" width="500"/>
+<img src="Screenshot/Screenshot5.png" alt="drawing" width="500"/>
+<img src="Screenshot/Screenshot6.png" alt="drawing" width="500"/>
+<img src="Screenshot/Screenshot7.png" alt="drawing" width="500"/>
+<img src="Screenshot/Screenshot8.png" alt="drawing" width="500"/>
 
 # Tool Used 🛠️
 ### Back-end
