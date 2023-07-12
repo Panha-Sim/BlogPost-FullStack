@@ -23,7 +23,9 @@ A Full Stack BlogPost application (MVP). Built using Mern Tech Stack. you can re
 ### Make sure you have: 
 - `MongoDB Atlas` account with a [cluster](https://www.mongodb.com/basics/clusters/mongodb-cluster-setup)
 - Have `JWTTokenSecrete`, generate one here: [random string](https://www.javainuse.com/jwtgenerator)
+- Create a [.env](https://www.npmjs.com/package/dotenv) File in the server folder.
 ```.env
+//.env File
 DB_URI = *MongoDBLinkHere*
 PORT = 3001
 ACCESS_TOKEN_SECRET = *JWTTokenSecreteHere*
