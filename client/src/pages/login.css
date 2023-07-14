@@ -15,9 +15,11 @@
   border-bottom: 1px solid #515151;
   margin: 10px 10px;
   width: 300px;
+  transition: all 0.2s ease-in-out;
 }
 
 .inputBar:focus {
+  border-bottom: 1px rgb(66, 155, 233) solid;
   outline: none;
 }
 

@@ -11,7 +11,7 @@ export default function Blogs() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/get/${genre}`)
+      .get(`http://localhost:3001/blog/get/${genre}`)
       .then((response) => {
         setBlogs(response.data);
         setLoading(false);

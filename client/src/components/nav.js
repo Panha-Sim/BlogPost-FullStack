@@ -11,7 +11,7 @@ export default function Nav() {
   const navigate = useNavigate();
 
   const api = axios.create({
-    baseURL: "http://localhost:3001",
+    baseURL: "http://localhost:3001/auth",
     withCredentials: true,
     Headers: { "Content-Type": "application/json" },
   });
@@ -57,8 +57,9 @@ export default function Nav() {
 
         {profile && (
           <>
+          
             <div className="dropdown">
-              <Link to="/create">{profile}</Link>
+              <Link to="/create">{profile}</Link>    
               <Link to={`/create/${user._id}`}>
                 <button>write</button>
               </Link>

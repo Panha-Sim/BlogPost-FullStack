@@ -17,7 +17,7 @@ export default function BlogPage() {
 
 
   useEffect(() => {
-    axios.get(`http://localhost:3001/get/id/${_id}`).then((response) => {
+    axios.get(`http://localhost:3001/blog/get/id/${_id}`).then((response) => {
       setBlog(response.data);
     });
   }, [_id]);

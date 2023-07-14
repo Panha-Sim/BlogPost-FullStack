@@ -7,7 +7,7 @@ import { Navigate, useParams } from "react-router";
 export default function Create() {
 
   const api = axios.create({
-    baseURL: "http://localhost:3001",
+    baseURL: "http://localhost:3001/blog",
     withCredentials: true,
     Headers: { "Content-Type": "application/json" },
   });
@@ -22,7 +22,7 @@ export default function Create() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-
+    console.log("clikced")
     //post API
     try {
       const response = await api.post("/post", {
@@ -91,6 +91,7 @@ export default function Create() {
       <button className="SubmitButtom" type="submit">
         Submit
       </button>
+      
     </form>
   );
 }

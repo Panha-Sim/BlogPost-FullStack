@@ -9,9 +9,27 @@
 form > textarea {
   line-height: 20px;
 }
+form {
+  margin-bottom: 3rem;
+}
 
 .SubmitButtom {
+  cursor: pointer;
+  font-size: 2.5vh;
+  margin-top: 20px;
   width: 10vw;
+  min-width: 130px;
+  height: 6vh;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  transition: 0.2s ease-in-out;
+}
+.SubmitButtom:hover {
+  color:black;
+  background-color: white;
+  
+
 }
 
 .genreCheckbox{

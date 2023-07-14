@@ -8,7 +8,7 @@ export default function SearchBlog(){
     const [blogs,setBlogs] = useState([]);
     const {searchValue} = useParams();
     useEffect(()=>{
-        axios.get(`http://localhost:3001/get/search/${searchValue}`).then((result)=>{
+        axios.get(`http://localhost:3001/blog/search/${searchValue}`).then((result)=>{
             setBlogs(result.data);
         })
     },[searchValue])
