@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./nav.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import bootstrap from 'bootstrap'
 
 export default function Nav() {
   const [searchValue, setSearchValue] = useState("");
@@ -59,7 +60,7 @@ export default function Nav() {
           <>
           
             <div className="dropdown">
-              <Link to="/create">{profile}</Link>    
+              <Link to="/">{profile}</Link>    
               <Link to={`/create/${user._id}`}>
                 <button>write</button>
               </Link>
